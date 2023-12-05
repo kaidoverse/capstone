@@ -4,10 +4,10 @@ import CallToAction from './CallToAction';
 
 const Homepage = () => {
     return (
-        <div>
+        <>
             <Nav />
             <CallToAction />
-        </div>
+        </>
     )
 }
 

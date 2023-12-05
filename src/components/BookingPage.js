@@ -1,9 +1,10 @@
 import React from 'react'
+import BookingForm from './BookingForm'
 
-const BookingPage = () => {
+const BookingPage = (props) => {
     return (
-        <div>BookingPage</div>
+        <BookingForm availableTimes={props.availableTimes} dispatch={props.dispatch} submitForm={props.submitForm} />
     )
-}
+};
 
-export default BookingPage
+export default BookingPage;
